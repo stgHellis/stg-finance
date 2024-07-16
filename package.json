@@ -1,9 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "build": "next build -p 9005",
-    "dev": "next dev -p 9005",
-    "start": "next start -p 9005"
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",

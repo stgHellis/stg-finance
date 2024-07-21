@@ -1,9 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "build": "next build",
-    "dev": "next dev",
-    "start": "next start"
+    "build": "set PORT=9008 && next build",
+    "dev": "set PORT=9008 && next dev",
+    "start": "set PORT=9008 && next start"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
